@@ -11,43 +11,123 @@
   <title>Frontend Mentor | Designo Agency Website Challenge</title>
 </head>
 <body>
-  Our Company
-  Locations
-  Contact
 
-  Contact us
-  Ready to take it to the next level? Let’s talk about your project or idea and find out how 
-  we can help your business grow. If you are looking for unique digital experiences that’s 
-  relatable to your users, drop us a line.
+  <header>
+    <nav class="nav">
+      <div class="logo">
 
-  Name
-  Email address
-  Phone
-  Your message
-  Submit
+      </div>
+      <ul class="mainNav">
+        <li class="mainNavLink"><a href="">Our Company</a></li>
+        <li class="mainNavLink"><a href="">Locations</a></li>
+        <li class="mainNavLink"><a href="">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
 
-  Canada
-  See location
+  <section class="contactDiv hero">
+    <div class="contactText">
+      <h1 class="contactHeader heroHeader">
+        Contact us
+      </h1>
+      <p class="contactSub heroContent">
+        Ready to take it to the next level? Let’s talk about your project or idea and find out how 
+        we can help your business grow. If you are looking for unique digital experiences that’s 
+        relatable to your users, drop us a line.
+      </p>
+    </div>
+    
+    <form action="" id="contactForm">
+      <input type="text" id="name" name="name" placeholder="Name">
+      <input type="email" name="email" id="email">
+      <input type="tel" id="tel" placeholder="Phone">
+      <textarea rows="4" cols="50" name="message" placeholder="Your message" class="textarea" form="contactForm"></textarea>
+      <button type="submit" class="contactBtn">Submit</button>
 
-  Australia
-  See location
+    </form>
+  </section>
 
-  United Kingdom
-  See location
+  <div class="locationsAbout">
+    <div class="locationAbout">
+      <div class="svg"></div>
+      <h3 class="locationAboutHeader">
+        CANADA
+      </h3>
+      <button class="btnAbout">SEE LOCATION</button>
+    </div>
+    <div class="locationAbout">
+      <div class="svg"></div>
+      <h3 class="locationAboutHeader">
+        AUSTRALIA
+      </h3>
+      <button class="btnAbout">SEE LOCATION</button>
+    </div><div class="locationAbout">
+      <div class="svg"></div>
+      <h3 class="locationAboutHeader">
+        UNITED KINGDOM
+      </h3>
+      <button class="btnAbout">SEE LOCATION</button>
+    </div>
+  </div>
 
-  Our company
-  Locations
-  Contact
+  <footer>
+    <div class="projectTalkCTO">
+      <div class="projectTalkContent">
+        <h1 class="talkHeader">
+          Let’s talk about your project
+        </h1>
+        <p class="content">
+          Ready to take it to the next level? Contact us today and find out how our expertise can help your business grow.
+        </p>
+      </div>
 
-  Designo Central Office
-  3886 Wellington Street
-  Toronto, Ontario M9C 3J5
+      <button class="btn">Get in touch</button>
+    </div>
 
-  Contact Us (Central Office)
-  P : +1 253-863-8967
-  M : contact@designo.co
+
+    <div class="mainFooter">
+      <nav class="nav footerNav">
+        <div class="logo">
+  
+        </div>
+        <ul class="footerNav">
+          <li class="footerNavLink"><a href="">Our Company</a></li>
+          <li class="footerNavLink"><a href="">Locations</a></li>
+          <li class="footerNavLink"><a href="">Contact</a></li>
+        </ul>
+      </nav>
+
+      <hr class="footerHr">
+      
+      <div class="contactDiv">
+        <div class="address">
+          <h6 class="addressHeader footerBold">
+            Designo Central Office
+          </h6>
+          <p class="addressContent">3886 Wellington Street</p>
+          <p class="addressContent">Toronto, Ontario M9C 3J5</p>
+        </div>
+        <div class="contactInfo">
+          <h6 class="footerBold">
+            Contact Us (Central Office)
+          </h6>
+          <h6 class="footerBold">
+            P : +1 253-863-8967
+          </h6>
+          <h6 class="footerBold">
+            M : contact@designo.co
+          </h6>
+        </div>
+        <div class="socialLinks">
+
+        </div>
+      </div>
+
+    </div>
+
+  </footer>
+
 
   <script src="./app.js"></script>
-
 </body>
 </html>
